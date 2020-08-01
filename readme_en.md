@@ -29,7 +29,7 @@ Title: Development board +AWS +Web to realize the little game of yo-yo counting:
 ---
 ## Project flowchart
 
-![current](images/current..png)
+![current](images/current.png)
 
 ---
 ## Project overview
@@ -79,7 +79,7 @@ Arduino programming
 
 ## Example demo
 
-![Gif](images/gif. gif)
+![Gif](images/gif.gif)
 
 
 
