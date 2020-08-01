@@ -14,7 +14,7 @@ title: 开发板 +AWS +Web 实现摇摇乐计数小游戏：“是男人就摇10
 # 起飞！！！
 ---
 ## 项目流程图
-![current](images/current.jpg)
+![current](images/current.png)
 ---
 ## 项目概要 
 ---
