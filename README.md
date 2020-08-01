@@ -1,4 +1,4 @@
-#### English|[中文](README.md)
+#### 中文|[English](README_en.md)
 # This is for FLY's FuLiYe new project
 # 2020年新工科联盟-[Xilinx](https://www.xilinx.com/)暑期学校（Summer School）项目
 # 队伍名称：FLY的傅里叶
@@ -15,15 +15,11 @@ title: 开发板 +AWS +Web 实现摇摇乐计数小游戏：“是男人就摇10
 ---
 ## 项目概要 
 ---
-### 开发板准备 Development board ready
+### 开发板准备
 1. 为最新的[FPGADemo](https://github.com/DoneSEA/SEA)添加QSPI模块，支持串口数据输出。
 For the latest [FPGADemo] (https://github.com/DoneSEA/SEA) to add QSPI module, support serial data output.
 2. 使用[Vivado 2018.3](https://china.xilinx.com)进行编译生成bit文件。
 3. 将bit文件移入tf卡的overlay文件夹
-
-1. For the latest [FPGADemo] (https://github.com/DoneSEA/SEA) to add QSPI module, support serial data output.
-2. Use [Vivado 2018.3](https://china.xilinx.com) to compile and generate bit files.
-3. Move the BIT file into the TF card overlay folder
 ### Arduino程序编写
 1. 对开发板进行烧写。
 2. 使用串口监视器进行陀螺仪原始数据进行观测。
