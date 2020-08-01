@@ -1,5 +1,5 @@
 # This is for FLY's FuLiYe new project
-# 2020年新工科联盟-Xilinx暑期学校（Summer School）项目
+# 2020年新工科联盟-[Xilinx](https://www.xilinx.com/)暑期学校（Summer School）项目
 # 队伍名称：FLY的傅里叶
 ## 小组成员 ： 强浩   李高鉴
 ## 项目名称：A13 摇摇乐
@@ -12,12 +12,17 @@ title: 开发板 +AWS +Web 实现摇摇乐计数小游戏：“是男人就摇10
 
 # Let's Go
 ---
-## 项目概要
+## 项目概要 
 ---
-### 开发板准备
+### 开发板准备 Development board ready
 1. 为最新的[FPGADemo](https://github.com/DoneSEA/SEA)添加QSPI模块，支持串口数据输出。
 2. 使用[Vivado 2018.3](https://china.xilinx.com)进行编译生成bit文件。
 3. 将bit文件移入tf卡的overlay文件夹
+1. For the latest [FPGADemo] (https://github.com/DoneSEA/SEA) to add QSPI module, support serial data output.
+
+2. Use [Vivado 2018.3](https://china.xilinx.com) to compile and generate bit files.
+
+3. Move the BIT file into the TF card overlay folder
 ### Arduino程序编写
 1. 对开发板进行烧写。
 2. 使用串口监视器进行陀螺仪原始数据进行观测。
