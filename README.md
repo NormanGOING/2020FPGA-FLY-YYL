@@ -18,10 +18,9 @@ title: 开发板 +AWS +Web 实现摇摇乐计数小游戏：“是男人就摇10
 1. 为最新的[FPGADemo](https://github.com/DoneSEA/SEA)添加QSPI模块，支持串口数据输出。
 2. 使用[Vivado 2018.3](https://china.xilinx.com)进行编译生成bit文件。
 3. 将bit文件移入tf卡的overlay文件夹
+
 1. For the latest [FPGADemo] (https://github.com/DoneSEA/SEA) to add QSPI module, support serial data output.
-
 2. Use [Vivado 2018.3](https://china.xilinx.com) to compile and generate bit files.
-
 3. Move the BIT file into the TF card overlay folder
 ### Arduino程序编写
 1. 对开发板进行烧写。
