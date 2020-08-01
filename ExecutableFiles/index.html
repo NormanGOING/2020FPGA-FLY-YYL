@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Welcome to YaoYaoLe</title>
+<style>
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:25px/180% Arial, Helvetica, sans-serif, "ÐÂËÎÌå";}
+div{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.count1{
+	font-size: 30px;
+}
+.contain{
+	border: 2px black;
+}
+.demo{width:300px; margin:60px auto 10px auto}
+@media only screen and (min-width: 420px) {
+	.demo{width:500px; margin:60px auto 10px auto}
+}
+.demo p{line-height:36px}
+.button {
+	display: inline-block;
+	cursor:pointer;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	font: 16px/100% 'Microsoft yahei',Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #ededed;
+}
+.button:hover {
+	text-decoration: none;
+	background: #fff;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+	color: #999;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="demo">
+	<br/>
+	<br/>
+	<br/>
+    <p>Click to begin YYL challenge!(10s)</p>
+    <div>__________________</div>
+    <div>____________________________________</div>
+    <div>__________________</div>
+	<form action="#" method="post" name="myform">
+		<input type="button" class="button" value="Let's Go"  id="phone_btn" name="phone" onClick="showtime(10)">
+	</form>
+</div>
+<div class="count1">You have shaked until now !</div>
+<div class="contain">
+	<div class="count"></div>
+</div>
+
+
+
+<script src="bundle.js"></script>
+    <script src="aws-iot-sdk-browser-bundle.js"></script>
+<script type="text/javascript">
+var secs = 10;
+document.agree.agreeb.disabled=true;
+for(var i=1;i<=secs;i++) {
+	window.setTimeout("update(" + i + ")", i * 1000);
+}
+function update(num) {
+	if(num == secs) {
+		document.agree.agreeb.value =" I agree";
+		document.agree.agreeb.disabled=false;
+	}
+	else {
+		var printnr = secs-num;
+		document.agree.agreeb.value = "Please read the rules (" + printnr +")";
+	}
+}
+
+function showtime(t){
+	document.myform.phone.disabled=true;
+	for(i=1;i<=t;i++) {
+		window.setTimeout("update_p(" + i + ","+t+")", i * 1000);
+	}
+
+}
+
+function update_p(num,t) {
+	if(num == t) {
+		document.myform.phone.value =" Click to begin again ";
+		document.myform.phone.disabled=false;
+	}
+	else {
+		printnr = t-num;
+		document.myform.phone.value = " (" + printnr +") are left";
+	}
+}
+
+</script>
+<div style="text-align:center;">
+
+</div>
+</body>
+</html>

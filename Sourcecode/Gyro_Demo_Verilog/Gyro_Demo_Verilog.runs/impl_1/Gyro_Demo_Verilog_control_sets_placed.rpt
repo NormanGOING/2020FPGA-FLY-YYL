@@ -1,0 +1,111 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jul 31 15:19:58 2020
+| Host         : DESKTOP-U7N4HHV running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Gyro_Demo_Verilog_control_sets_placed.rpt
+| Design       : Gyro_Demo_Verilog
+| Device       : xc7s15
+----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    38 |
+| Unused register locations in slices containing registers |   106 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            4 |
+|      2 |            1 |
+|      4 |            4 |
+|      5 |            1 |
+|      6 |            2 |
+|      8 |           11 |
+|      9 |            1 |
+|     11 |            1 |
+|     12 |            1 |
+|    16+ |           12 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              12 |            7 |
+| No           | No                    | Yes                    |             371 |          100 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             143 |           36 |
+| Yes          | No                    | Yes                    |             234 |           62 |
+| Yes          | Yes                   | No                     |              30 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+--------------------------------------------------+----------------------------------------------------+------------------+----------------+
+|         Clock Signal        |                   Enable Signal                  |                  Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++-----------------------------+--------------------------------------------------+----------------------------------------------------+------------------+----------------+
+| ~I_qspi_clk_IBUF_BUFG       |                                                  | I_qspi_cs_IBUF                                     |                1 |              1 |
+|  System_Clock/inst/clk_out1 | IIC_0/iic_sda_o_i_1_n_0                          | Gyro_0/Gyro_Init_0/i_rst                           |                1 |              1 |
+| ~System_Clock/inst/clk_out1 |                                                  | UART0_Ctrl/UART_Package0/i_rst                     |                1 |              1 |
+|  System_Clock/inst/clk_out1 | Gyro_0/Gyro_Read_Data_0/reg_addr_l_o_0           | UART0_Ctrl/UART_Package0/i_rst_0                   |                1 |              1 |
+|  System_Clock/inst/clk_out1 | Gyro_0/magx_data_o[7]_i_1_n_0                    | Gyro_0/Gyro_Init_0/i_rst                           |                1 |              2 |
+|  System_Clock/inst/clk_out1 | Gyro_0/Gyro_Init_0/init_cnt[3]_i_1_n_0           | Gyro_0/Gyro_Read_Data_0/Trigger_Write/i_rst        |                2 |              4 |
+|  I_qspi_clk_IBUF_BUFG       | u_qspi_slave/addr0                               | I_qspi_cs_IBUF                                     |                2 |              4 |
+|  System_Clock/inst/clk_out1 |                                                  | Gyro_0/Gyro_Read_Data_0/i_rst                      |                2 |              4 |
+|  I_qspi_clk_IBUF_BUFG       | u_qspi_slave/R_o_data[7]_i_1_n_0                 | I_qspi_cs_IBUF                                     |                1 |              4 |
+|  System_Clock/inst/clk_out1 | Gyro_0/Gyro_Read_Data_0/reg_addr_l_o_0           | UART0_Ctrl/UART_Package0/i_rst                     |                1 |              5 |
+|  System_Clock/inst/clk_out1 | UART0_Ctrl/data_5                                | UART0_Ctrl/UART_Package0/i_rst                     |                2 |              6 |
+|  System_Clock/inst/clk_out1 | Gyro_0/magx_data_o[7]_i_1_n_0                    | UART0_Ctrl/UART_Package0/i_rst_0                   |                3 |              6 |
+|  System_Clock/inst/clk_out1 | Gyro_0/angley_data_o[7]_i_1_n_0                  | Gyro_0/Gyro_Init_0/i_rst                           |                2 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/anglez_data_o[15]_i_1_n_0                 | Gyro_0/Gyro_Init_0/i_rst                           |                3 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/anglex_data_o[15]_i_1_n_0                 | Gyro_0/Gyro_Init_0/i_rst                           |                1 |              8 |
+|  I_qspi_clk_IBUF_BUFG       | u_qspi_slave/R_o_addr                            | I_qspi_cs_IBUF                                     |                2 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/magx_data_o[15]_i_1_n_0                   | Gyro_0/Gyro_Init_0/i_rst                           |                2 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/temperature_data_o1                       | Gyro_0/Gyro_Init_0/i_rst                           |                2 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/temperature_data_o[15]_i_1_n_0            | Gyro_0/Gyro_Init_0/i_rst                           |                1 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/Gyro_Read_Data_0/read_data_o              | Gyro_0/Gyro_Read_Data_0/Trigger_Write/i_rst        |                3 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/angley_data_o[15]_i_1_n_0                 | Gyro_0/Gyro_Init_0/i_rst                           |                3 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/anglez_data_o[7]_i_1_n_0                  | Gyro_0/Gyro_Init_0/i_rst                           |                2 |              8 |
+|  System_Clock/inst/clk_out1 | Gyro_0/anglex_data_o[7]_i_1_n_0                  | Gyro_0/Gyro_Init_0/i_rst                           |                2 |              8 |
+|  System_Clock/inst/clk_out1 | UART0_Ctrl/UART0/UART_Tx0/send_buffer[7]_i_1_n_0 | Gyro_0/Gyro_Read_Data_0/Trigger_Write/i_rst        |                2 |              9 |
+|  System_Clock/inst/clk_out1 | Gyro_0/Gyro_Init_0/reg_addr_l_o0                 | Gyro_0/Gyro_Init_0/i_rst                           |                2 |             11 |
+|  System_Clock/inst/clk_out1 |                                                  |                                                    |                7 |             12 |
+|  System_Clock/inst/clk_out1 | UART0_Ctrl/UART_Package0/tx_wr_data_0            | UART0_Ctrl/UART_Package0/i_rst_1                   |                6 |             24 |
+|  I_qspi_clk_IBUF_BUFG       |                                                  | I_qspi_cs_IBUF                                     |                8 |             24 |
+|  System_Clock/inst/clk_out1 |                                                  | Gyro_0/Gyro_Init_0/i_rst                           |                9 |             26 |
+|  System_Clock/inst/clk_out1 | UART0_Ctrl/UART_Package0/tx_wr_data_0            | UART0_Ctrl/UART_Package0/i_rst_0                   |                8 |             27 |
+|  System_Clock/inst/clk_out1 | i_rst_IBUF                                       | Gyro_0/Gyro_Read_Data_0/read_clock/cnt[30]_i_1_n_0 |                8 |             30 |
+|  System_Clock/inst/clk_out1 | UART0_Ctrl/data_5                                | UART0_Ctrl/UART_Package0/i_rst_1                   |                7 |             42 |
+|  System_Clock/inst/clk_out1 |                                                  | UART0_Ctrl/UART_Package0/i_rst_1                   |                8 |             46 |
+|  System_Clock/inst/clk_out1 | i_rst_IBUF                                       |                                                    |               17 |             63 |
+|  System_Clock/inst/clk_out1 |                                                  | UART0_Ctrl/UART_Package0/i_rst_0                   |               26 |             78 |
+|  System_Clock/inst/clk_out1 | u_Gyro2ram/p_0_in                                |                                                    |               19 |             80 |
+|  System_Clock/inst/clk_out1 |                                                  | Gyro_0/Gyro_Read_Data_0/Trigger_Write/i_rst        |               25 |             91 |
+|  System_Clock/inst/clk_out1 |                                                  | UART0_Ctrl/UART_Package0/i_rst                     |               20 |            100 |
++-----------------------------+--------------------------------------------------+----------------------------------------------------+------------------+----------------+
+
+
