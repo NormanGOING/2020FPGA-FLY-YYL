@@ -6,7 +6,7 @@ title: 开发板 +AWS +Web 实现摇摇乐计数小游戏：“是男人就摇10
 ## Let's Go
 ---
 ### 开发板准备
-1. 为最新的FPGADemo添加QSPI模块，支持串口数据输出。
+1. 为最新的[FPGADemo](https://github.com/DoneSEA/SEA)添加QSPI模块，支持串口数据输出。
 2. 使用[Vivado 2018.3](https://china.xilinx.com)进行编译生成bit文件。
 3. 将bit文件移入tf卡的overlay文件夹
 ---
