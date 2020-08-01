@@ -29,7 +29,7 @@ Title: Development board +AWS +Web to realize the little game of yo-yo counting:
 ---
 ## Project flowchart
 
-! The[current](images/current..png)
+![current](images/current..png)
 
 ---
 ## Project overview
