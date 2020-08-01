@@ -1,5 +1,5 @@
 #### 中文|[English](README_en.md)
-# This is for FLY's FuLiYe new project
+# 这是FLY小队的项目
 # 2020年新工科联盟-[Xilinx](https://www.xilinx.com/)暑期学校（Summer School）项目
 # 队伍名称：FLY的傅里叶
 ## 小组成员 ： 强浩   李高鉴
@@ -11,7 +11,7 @@
 
 title: 开发板 +AWS +Web 实现摇摇乐计数小游戏：“是男人就摇10s!”
 
-# Let's Go
+# 起飞！！！
 ---
 ## 项目概要 
 ---
