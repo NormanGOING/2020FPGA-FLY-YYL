@@ -12,7 +12,7 @@
 
 ## Extension function: Build Web to realize data transmission with AWS, and realize the small game of "shake 10s of challenge" on the Web based on the counter
 
-## Tool version (click to download) : [Vivado 2018.3 (VerilogHDL)] (https://china.xilinx.com), [Arduino1.8.9 (C, C + +)] (https://www.arduino.cc/en/Main/Software), [AWS Iot] (https://aws.amazon.com/tw/education/awseducate/), [Vscode (HTML, CSS, JavaScript)] (https://code.visualstudio.com/)
+## Tool version (click to download) : [Vivado 2018.3 (VerilogHDL)](https://china.xilinx.com), [Arduino1.8.9 (C, C + +)](https://www.arduino.cc/en/Main/Software), [AWS Iot](https://aws.amazon.com/tw/education/awseducate/), [Vscode (HTML, CSS, JavaScript)](https://code.visualstudio.com/)
 
 ## Model: XC7S15FTGB196-1
 
