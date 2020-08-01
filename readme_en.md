@@ -27,6 +27,11 @@ Title: Development board +AWS +Web to realize the little game of yo-yo counting:
 # Let 's Go
 
 ---
+## Project flowchart
+
+! The[current](images/current..png)
+
+---
 ## Project overview
 
 ---
@@ -63,11 +68,26 @@ Arduino programming
 
 2. HTML+CSS+ JS to build the Web to achieve the small game of Yo-yo.
 
+---
+
+## Technical route
+
+![YYL](images/YYL.png)
 
 
 ---
 
-Introduction to the warehouse directory
+## Example demo
+
+![Gif](images/gif. gif)
+
+
+
+---
+
+---
+
+## Introduction to the warehouse directory
 
 ---
 
