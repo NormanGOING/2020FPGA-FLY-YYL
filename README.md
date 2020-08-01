@@ -1,6 +1,6 @@
 # This is for FLY's FuLiYe new project
 # 2020年新工科联盟-Xilinx暑期学校（Summer School）项目
-
+# 队伍名称：FLY的傅里叶
 ## 小组成员 ： 强浩   李高鉴
 ## 项目名称：A13 摇摇乐
 ## 拓展功能：搭建Web实现与AWS的数据传输，同时在Web实现“是男人就摇10s”小游戏
