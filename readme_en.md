@@ -1,4 +1,33 @@
-Project overview
+#### English | [Chinese] (README.md)
+
+# This is for FLY's FuLiYe new project
+
+# 2020 New Engineering Alliance -[Xilinx](https://www.xilinx.com/) Summer School Project
+
+# Team name: Fourier of FLY
+
+## Team member: Qiang Hao Li Gaojian
+
+## Project name: A13 Yo-yo
+
+## Extension function: Build Web to realize data transmission with AWS, and realize the small game of "shake 10s if you are a man" on the Web based on the counter
+
+## Tool version (click to download) : [Vivado 2018.3 (VerilogHDL)] (https://china.xilinx.com), [Arduino1.8.9 (C, C + +)] (https://www.arduino.cc/en/Main/Software), [AWS Iot] (https://aws.amazon.com/tw/education/awseducate/), [Vscode (HTML, CSS, JavaScript)] (https://code.visualstudio.com/)
+
+## Model: XC7S15FTGB196-1
+
+## Peripheral: None
+
+
+
+Title: Development board +AWS +Web to realize the little game of yo-yo counting: "Shake 10s if you are a man!"
+
+
+
+# Let 's Go
+
+---
+## Project overview
 
 ---
 
@@ -42,7 +71,7 @@ Introduction to the warehouse directory
 
 ---
 
-# # # images
+### images
 
 1. Project flow diagram
 
@@ -52,7 +81,7 @@ Introduction to the warehouse directory
 
 
 
-# # # Sourcecode
+### Sourcecode
 
 1. The FPGA source
 
@@ -62,7 +91,7 @@ Introduction to the warehouse directory
 
 
 
-# # # ExecutableFiles
+### ExecutableFiles
 
 1. Bit file
 
