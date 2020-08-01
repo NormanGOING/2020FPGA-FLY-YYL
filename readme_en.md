@@ -1,4 +1,4 @@
-#### English | [Chinese] (README.md)
+#### English | [Chinese](README.md)
 
 # This is for FLY's FuLiYe new project
 
