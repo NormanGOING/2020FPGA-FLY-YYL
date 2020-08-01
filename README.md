@@ -4,7 +4,7 @@
 ## 小组成员 ： 强浩   李高鉴
 ## 项目名称：A13 摇摇乐
 ## 拓展功能：搭建Web实现与AWS的数据传输，同时基于计数器在Web实现“是男人就摇10s”小游戏
-## 工具版本：Vivado 2018.3（VerilogHDL） ， Arduino1.8.9（C,C++），AWS云平台 ，Vscode（html，css，JavaScript）
+## 工具版本(点击下载)：[Vivado 2018.3（VerilogHDL)](https://china.xilinx.com) ， [Arduino1.8.9(C,C++)](https://www.arduino.cc/en/Main/Software)，[AWS Iot](https://aws.amazon.com/tw/education/awseducate/) ，[Vscode(html，css，JavaScript)](https://code.visualstudio.com/)
 ## 板卡型号：xc7s15ftgb196-1
 ## 外设：无
 
