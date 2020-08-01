@@ -20,7 +20,7 @@
 
 
 
-Title: Development board +AWS +Web to realize the little game of yo-yo counting: "Shake 10s if you are a man!"
+Title: Development board +AWS +Web to realize the little game of yo-yo counting: "Shake 10s of challenge"
 
 
 
