@@ -37,6 +37,13 @@ For the latest [FPGADemo] (https://github.com/DoneSEA/SEA) to add QSPI module, s
 2. HTML+CSS+js搭建web实现摇摇乐小游戏。
 
 ---
+## 技术路线
+![YYL](images/YYL.png)
+
+---
+示例演示
+![Gif](images/gif.gif)
+---
 ## 仓库目录介绍
 ---
 ### images
