@@ -33,7 +33,7 @@ Title: Development board +AWS +Web to realize the little game of yo-yo counting:
 
 ### Development board ready
 
-1. For the latest [FPGADemo] (https://github.com/DoneSEA/SEA) to add QSPI module, support serial data output.
+1. For the latest [FPGADemo](https://github.com/DoneSEA/SEA) to add QSPI module, support serial data output.
 
 2. Use [Vivado 2018.3](https://china.xilinx.com) to compile and generate bit files.
 
@@ -49,7 +49,7 @@ Arduino programming
 
 4. Write the counter module for shaking count.
 
-### [AWS Iot] (https://www.awseducate.com)
+### [AWS Iot](https://www.awseducate.com)
 
 1. Create things, strategies, etc.
 
