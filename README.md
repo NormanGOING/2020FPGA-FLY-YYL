@@ -1,4 +1,4 @@
-#### 中文|[English](README_en.md)
+#### 中文|[English](readme_en.md)
 # 这是FLY小队的项目
 # 2020年新工科联盟-[Xilinx](https://www.xilinx.com/)暑期学校（Summer School）项目
 # 队伍名称：FLY的傅里叶
